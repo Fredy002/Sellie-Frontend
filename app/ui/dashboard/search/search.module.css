@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #EDF3F7;
+    padding: 10px;
+    border-radius: 10px;
+    width: max-content;
+}
+.icon{
+    color: #073286;
+    font-size: 25px;
+}
+
+.input{
+    background-color: transparent;
+    border: none;
+    color:#073286;
+    outline: none;
+}
