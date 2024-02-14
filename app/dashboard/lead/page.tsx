@@ -6,6 +6,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { MdAdd } from 'react-icons/md';
 
+import Pagination from '@/app/ui/dashboard/pagination/pagination';
+
 // Definir la interfaz para el objeto de usuario
 interface User {
     id: number;
@@ -83,6 +85,7 @@ const LeadPage = () => {
                     ))}
                 </tbody>
             </table>
+            <Pagination />
         </div>
     );
 }
